@@ -54,6 +54,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Fonts\fa_solid.ttf" />
+	  <None Remove="Resources\Images\user_people_man_icon.png" />
 	</ItemGroup>
 
 	<ItemGroup>

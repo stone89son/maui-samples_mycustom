@@ -14,6 +14,15 @@
             <GradientStop Color="#E6FC2F" Offset="1.0"/>
         </LinearGradientBrush>
     </Shell.FlyoutBackground>
+    <Shell.FlyoutHeader>
+        <StackLayout HorizontalOptions="Center" Margin="10,20,0,10">
+            <Frame CornerRadius="45" HorizontalOptions="Center" Padding="0">
+                <Image Source="user_people_man_icon.png" HeightRequest="90" WidthRequest="90" Aspect="AspectFill"></Image>
+            </Frame>
+            <Label Text="LE DUC SON" FontSize="18" TextColor="Black" Margin="0,10,0,0"/>
+            <Label Text="ID: 80010960" FontSize="12" TextColor="Black" HorizontalOptions="Center" Margin="0,10,0,0"/>
+        </StackLayout>
+    </Shell.FlyoutHeader>
     <FlyoutItem Title="My Check List" FlyoutIcon="{StaticResource BallotCheck}">
         <ShellContent
                 Title="My Check List"
